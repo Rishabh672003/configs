@@ -1,0 +1,15 @@
+2022/04/02-17:35:55.264 f672 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_anilist.co_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/02-17:35:55.264 f672 Recovering log #43
+2022/04/02-17:35:55.266 f672 Reusing old log /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_anilist.co_0.indexeddb.leveldb/000043.log 
+2022/04/02-18:05:24.612 fd07 Level-0 table #48: started
+2022/04/02-18:05:24.614 fd07 Level-0 table #48: 7747 bytes OK
+2022/04/02-18:05:24.617 fd07 Delete type=0 #43
+2022/04/02-18:05:24.618 fd07 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/02-18:05:24.618 fd07 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x04\x00v\x00u\x00e\x00x' @ 7819 : 0
+2022/04/02-18:05:24.618 fd07 Compacting 1@1 + 1@2 files
+2022/04/02-18:05:24.620 fd07 Generated table #49@1: 26 keys, 698 bytes
+2022/04/02-18:05:24.620 fd07 Compacted 1@1 + 1@2 files => 698 bytes
+2022/04/02-18:05:24.621 fd07 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/02-18:05:24.622 fd07 Delete type=2 #48
+2022/04/02-18:05:24.622 fd07 Delete type=2 #45
+2022/04/02-18:05:24.622 fd07 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x04\x00v\x00u\x00e\x00x' @ 7819 : 0 .. (end); will stop at (end)

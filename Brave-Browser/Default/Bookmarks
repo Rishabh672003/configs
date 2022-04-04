@@ -1,0 +1,40 @@
+{
+   "checksum": "e0d4b62d11f23df1b633ee0cf35e0a87",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13293386344780607",
+            "guid": "78a4549b-cc59-446f-bc6a-eebd37c60f44",
+            "id": "5",
+            "name": "Harris Sultan on atheism and fake atheists - @Pakistani Mulhid - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=W6012CSEyz0"
+         } ],
+         "date_added": "13291268205964542",
+         "date_modified": "13293386344780607",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13291268205964547",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13291268205964550",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

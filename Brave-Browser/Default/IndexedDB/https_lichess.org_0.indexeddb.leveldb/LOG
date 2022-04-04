@@ -1,0 +1,7 @@
+2022/03/23-23:11:11.614 43f09 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/23-23:11:11.614 43f09 Recovering log #3
+2022/03/23-23:11:11.615 43f09 Reusing old log /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lichess.org_0.indexeddb.leveldb/000003.log 
+2022/03/23-23:19:53.739 44670 Level-0 table #5: started
+2022/03/23-23:19:53.741 44670 Level-0 table #5: 1549 bytes OK
+2022/03/23-23:19:53.743 44670 Delete type=0 #3
+2022/03/23-23:19:53.743 44670 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

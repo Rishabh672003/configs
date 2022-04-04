@@ -1,0 +1,25 @@
+2022/03/29-12:13:48.110 2117 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/29-12:13:48.111 2117 Recovering log #48
+2022/03/29-12:13:48.123 2117 Reusing old log /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000048.log 
+2022/03/29-12:14:24.537 2117 Level-0 table #54: started
+2022/03/29-12:14:24.562 2117 Level-0 table #54: 1885218 bytes OK
+2022/03/29-12:14:24.565 2117 Delete type=0 #48
+2022/03/29-12:52:04.727 3066 Level-0 table #56: started
+2022/03/29-12:52:04.739 3066 Level-0 table #56: 509598 bytes OK
+2022/03/29-12:52:04.742 3066 Delete type=0 #53
+2022/03/29-12:52:04.743 3066 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x0a\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 27839 : 1
+2022/03/29-12:52:04.743 3066 Compacting 1@0 + 1@1 files
+2022/03/29-12:52:04.764 3066 Generated table #57@0: 1187 keys, 480428 bytes
+2022/03/29-12:52:04.765 3066 Compacted 1@0 + 1@1 files => 480428 bytes
+2022/03/29-12:52:04.766 3066 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/03/29-12:52:04.766 3066 Delete type=2 #56
+2022/03/29-12:52:04.766 3066 Delete type=2 #54
+2022/03/29-12:52:04.767 3066 Manual compaction at level-0 from '\x00\x0a\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 27839 : 1 .. (end); will stop at (end)
+2022/03/29-12:52:04.767 3066 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0a\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 27839 : 1
+2022/03/29-12:52:04.767 3066 Compacting 1@1 + 1@2 files
+2022/03/29-12:52:04.774 3066 Generated table #58@1: 116 keys, 111437 bytes
+2022/03/29-12:52:04.774 3066 Compacted 1@1 + 1@2 files => 111437 bytes
+2022/03/29-12:52:04.776 3066 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/03/29-12:52:04.776 3066 Delete type=2 #51
+2022/03/29-12:52:04.776 3066 Delete type=2 #57
+2022/03/29-12:52:04.776 3066 Manual compaction at level-1 from '\x00\x0a\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 27839 : 1 .. (end); will stop at (end)

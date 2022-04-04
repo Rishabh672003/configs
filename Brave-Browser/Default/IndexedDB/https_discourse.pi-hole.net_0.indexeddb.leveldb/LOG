@@ -1,0 +1,6 @@
+2022/03/18-12:21:51.373 62f4 Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.pi-hole.net_0.indexeddb.leveldb since it was missing.
+2022/03/18-12:21:51.377 62f4 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.pi-hole.net_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/18-12:22:25.934 62f4 Level-0 table #5: started
+2022/03/18-12:22:25.936 62f4 Level-0 table #5: 2547 bytes OK
+2022/03/18-12:22:25.938 62f4 Delete type=0 #3
+2022/03/18-12:22:25.938 62f4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

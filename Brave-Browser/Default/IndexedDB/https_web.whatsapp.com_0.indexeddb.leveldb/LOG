@@ -1,0 +1,26 @@
+2022/04/02-21:57:35.661 24ad Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/02-21:57:35.661 24ad Recovering log #7
+2022/04/02-21:57:35.679 24ad Reusing old log /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000007.log 
+2022/04/02-21:57:35.679 24ad Delete type=2 #5
+2022/04/02-21:57:47.304 24ad Level-0 table #12: started
+2022/04/02-21:57:47.351 24ad Level-0 table #12: 1108546 bytes OK
+2022/04/02-21:57:47.353 24ad Delete type=0 #7
+2022/04/02-21:57:47.353 24ad Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/04/02-21:57:49.029 29ff Compacting 1@1 + 1@2 files
+2022/04/02-21:57:49.056 29ff Generated table #13@1: 265 keys, 108787 bytes
+2022/04/02-21:57:49.056 29ff Compacted 1@1 + 1@2 files => 108787 bytes
+2022/04/02-21:57:49.058 29ff compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/02-22:50:59.467 245d Level-0 table #15: started
+2022/04/02-22:50:59.474 245d Level-0 table #15: 194226 bytes OK
+2022/04/02-22:50:59.476 245d Delete type=2 #9
+2022/04/02-22:50:59.476 245d Delete type=0 #11
+2022/04/02-22:50:59.476 245d Delete type=2 #12
+2022/04/02-22:50:59.477 245d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/04/02-22:50:59.477 245d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x06\x02\x1f\x03\x00\x10\xa4\xb4\xb1\xfewB\x00\x01P\x00_\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00i\x00m\x00a\x00g\x00e\x00_\x00/\x00v\x00/\x00t\x004\x005\x00.\x005\x003\x002\x008\x00-\x004\x00/\x001\x006\x004\x006\x009\x007\x000\x004\x007\x00_\x005\x001\x007\x004\x009\x005\x008\x004\x008\x005\x009\x001\x001\x009\x003\x004\x00_\x001\x005\x005\x003\x004\x002\x002\x008\x008\x009\x004\x001\x005\x000\x003\x001\x005\x007\x006\x00_\x00n\x00.\x00j\x00p\x00g' @ 51172 : 1
+2022/04/02-22:50:59.477 245d Compacting 1@1 + 1@2 files
+2022/04/02-22:50:59.485 245d Generated table #16@1: 1314 keys, 89990 bytes
+2022/04/02-22:50:59.485 245d Compacted 1@1 + 1@2 files => 89990 bytes
+2022/04/02-22:50:59.486 245d compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/04/02-22:50:59.487 245d Delete type=2 #15
+2022/04/02-22:50:59.487 245d Delete type=2 #13
+2022/04/02-22:50:59.487 245d Manual compaction at level-1 from '\x00\x06\x02\x1f\x03\x00\x10\xa4\xb4\xb1\xfewB\x00\x01P\x00_\x00p\x00r\x00o\x00d\x00u\x00c\x00t\x00i\x00m\x00a\x00g\x00e\x00_\x00/\x00v\x00/\x00t\x004\x005\x00.\x005\x003\x002\x008\x00-\x004\x00/\x001\x006\x004\x006\x009\x007\x000\x004\x007\x00_\x005\x001\x007\x004\x009\x005\x008\x004\x008\x005\x009\x001\x001\x009\x003\x004\x00_\x001\x005\x005\x003\x004\x002\x002\x008\x008\x009\x004\x001\x005\x000\x003\x001\x005\x007\x006\x00_\x00n\x00.\x00j\x00p\x00g' @ 51172 : 1 .. (end); will stop at (end)

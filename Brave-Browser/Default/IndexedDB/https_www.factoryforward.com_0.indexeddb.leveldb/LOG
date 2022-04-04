@@ -1,6 +1,0 @@
-2022/03/18-13:22:07.574 711d Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.factoryforward.com_0.indexeddb.leveldb since it was missing.
-2022/03/18-13:22:07.578 711d Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.factoryforward.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/18-13:34:25.166 7da8 Level-0 table #5: started
-2022/03/18-13:34:25.168 7da8 Level-0 table #5: 1368 bytes OK
-2022/03/18-13:34:25.170 7da8 Delete type=0 #3
-2022/03/18-13:34:25.170 7da8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

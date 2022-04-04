@@ -1,6 +1,0 @@
-2022/03/10-22:54:19.302 1ea69 Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.rfi.fr_0.indexeddb.leveldb since it was missing.
-2022/03/10-22:54:19.306 1ea69 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.rfi.fr_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/10-22:54:51.015 1fccb Level-0 table #5: started
-2022/03/10-22:54:51.018 1fccb Level-0 table #5: 30444 bytes OK
-2022/03/10-22:54:51.020 1fccb Delete type=0 #3
-2022/03/10-22:54:51.020 1fccb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

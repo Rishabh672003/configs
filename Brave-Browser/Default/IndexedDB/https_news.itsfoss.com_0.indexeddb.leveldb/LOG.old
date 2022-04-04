@@ -1,6 +1,0 @@
-2022/03/19-20:01:28.337 c2b5 Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_news.itsfoss.com_0.indexeddb.leveldb since it was missing.
-2022/03/19-20:01:28.351 c2b5 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_news.itsfoss.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/19-20:55:51.851 e027 Level-0 table #5: started
-2022/03/19-20:55:51.852 e027 Level-0 table #5: 846 bytes OK
-2022/03/19-20:55:51.854 e027 Delete type=0 #3
-2022/03/19-20:55:51.855 e027 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,6 +1,0 @@
-2022/03/28-11:46:54.193 912f Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_byjusexamprep.com_0.indexeddb.leveldb since it was missing.
-2022/03/28-11:46:54.198 912f Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_byjusexamprep.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/28-11:47:09.089 912e Level-0 table #5: started
-2022/03/28-11:47:09.091 912e Level-0 table #5: 1053 bytes OK
-2022/03/28-11:47:09.092 912e Delete type=0 #3
-2022/03/28-11:47:09.092 912e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

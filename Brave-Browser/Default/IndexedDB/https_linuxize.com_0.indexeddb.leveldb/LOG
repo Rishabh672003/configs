@@ -1,6 +1,0 @@
-2022/03/09-11:33:24.037 b7e9 Creating DB /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb since it was missing.
-2022/03/09-11:33:24.043 b7e9 Reusing MANIFEST /home/rishabh/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxize.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/09-11:34:38.790 b7e9 Level-0 table #5: started
-2022/03/09-11:34:38.792 b7e9 Level-0 table #5: 2639 bytes OK
-2022/03/09-11:34:38.794 b7e9 Delete type=0 #3
-2022/03/09-11:34:38.794 b7e9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

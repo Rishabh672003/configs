@@ -9,7 +9,7 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-#typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -85,19 +85,24 @@ zsh-syntax-highlighting
 )
 source $ZSH/oh-my-zsh.sh
 
+
 # User configuration
+
+if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
+        source /etc/profile.d/vte.sh
+fi
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+#Preferred editor for local and remote sessions
+ if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+ else
+   export EDITOR='nvim'
+ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -116,19 +121,23 @@ source $ZSH/oh-my-zsh.sh
 
 
 #my commands
-fastfetch
-#neofetch
+#fastfetch
+neofetch --ascii_distro arch
 #shellfetch
 
 #my aliases
 alias nr='sudo systemctl restart NetworkManager'
 alias rs='sudo systemctl start rate-mirrors.service'
 alias rss='systemctl status rate-mirrors'
+alias rsss='cd /home/rishabh/mirrors-and-hosts/ && sudo zsh rate-mirrors-arch.sh'
+alias neofetch='neofetch --ascii_distro arch'
+alias n=' neofetch'
+alias c='clear'
+alias cn='c && n'
+alias cdp='cd ..'
 alias y='yay'
 alias p='paru'
 alias f='fastfetch'
-alias n='neofetch'
-alias c='clear'
 alias e='exit'
 alias q='exit'
 alias s='shellfetch'
@@ -137,15 +146,22 @@ alias shut='shutdown now'
 alias sus='systemctl suspend'
 alias log='gnome-session-quit'
 alias vim='nvim'
-alias ll='exa -1 -a -l -b -h'
+alias ll='exa -1 -a -l -b -h --icons -s name'
+alias lll='exa -1 -a -l -b -h --icons -T -L=2 -s name'
 alias m='mocp'
-alias hosts='cd ~/hosts-maker && sudo bash ./hosts-maker.sh'
+alias hosts='cd /home/rishabh/mirrors-and-hosts/ && sudo zsh ./hosts-maker.sh'
 alias ws='waydroid show-full-ui'
 alias we='waydroid session stop'
 alias tachi='waydroid app launch eu.kanade.tachiyomi'
-alias zsh='source .zshrc'
+alias zsh='source ~/.zshrc'
+alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+alias ua-update-all='export TMPFILE="$(mktemp)"; \
+    sudo true; \
+    rate-mirrors --save=$TMPFILE arch --max-delay=21600 \
+      && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
+      && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
+      && ua-drop-caches \
+      && eos-rankmirrors \
+      && yay -Syyu --noconfirm'
 
-#Zsh-highlighting
-source /home/rishabh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/rishabh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-export PATH="$PATH:$HOME/.spicetify"
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'

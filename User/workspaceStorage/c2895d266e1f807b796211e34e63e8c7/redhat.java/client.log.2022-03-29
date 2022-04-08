@@ -1,0 +1,71 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2022-03-29 12:19:45.848'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_ss_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-03-29 12:19:45.872'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-03-29 12:19:45.994'
+}
+{
+  message: '[Error - 12:19:51 pm] 29-Mar-2022, 12:19:51 pm Workspace was not properly initialized or has already shutdown.',
+  level: 'info',
+  timestamp: '2022-03-29 12:19:51.977'
+}
+{
+  message: '[Error - 12:19:52 pm] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-03-29 12:19:52.437'
+}
+{
+  message: '[Error - 12:28:49 pm] 29-Mar-2022, 12:28:49 pm Error occured while building workspace. Details: \n' +
+    ' message: Syntax error, insert ";" to complete Statement; code: 1610612976; resource: /home/rishabh/java-vscode/java1/src/app/java2.java; line: 8',
+  level: 'info',
+  timestamp: '2022-03-29 12:28:49.920'
+}
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2022-03-29 20:00:21.294'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_ss_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-03-29 20:00:21.315'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-03-29 20:00:21.534'
+}
+{
+  message: '[Error - 8:00:25 pm] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-03-29 20:00:25.658'
+}
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2022-03-29 20:10:25.303'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_ss_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-03-29 20:10:25.323'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/c2895d266e1f807b796211e34e63e8c7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-03-29 20:10:25.451'
+}
+{
+  message: '[Error - 8:10:32 pm] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-03-29 20:10:32.716'
+}

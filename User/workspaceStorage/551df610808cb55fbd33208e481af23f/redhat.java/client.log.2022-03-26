@@ -1,0 +1,48 @@
+{
+  message: "Use the JDK from '' as the initial default project JDK.",
+  level: 'info',
+  timestamp: '2022-03-26 13:06:55.721'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_ss_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/551df610808cb55fbd33208e481af23f/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2022-03-26 13:06:55.779'
+}
+{
+  message: 'Starting Java server with: /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/jre/17.0.2-linux-x86_64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/rishabh/.config/VSCodium/User/workspaceStorage/551df610808cb55fbd33208e481af23f/redhat.java -jar /home/rishabh/.vscode-oss/extensions/redhat.java-1.4.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/rishabh/.config/VSCodium/User/globalStorage/redhat.java/1.4.0/config_linux -data /home/rishabh/.config/VSCodium/User/workspaceStorage/551df610808cb55fbd33208e481af23f/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2022-03-26 13:06:56.173'
+}
+{
+  message: '[Error - 1:07:02 pm] 26-Mar-2022, 1:07:02 pm An internal error occurred during: "Publish Diagnostics".\n' +
+    'Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDiagnosticsHandler.<init>(SyntaxDiagnosticsHandler.java:23)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.createDiagnosticsHandler(SyntaxDocumentLifeCycleHandler.java:67)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2022-03-26 13:07:02.482'
+}
+{
+  message: '[Error - 1:07:02 pm] 26-Mar-2022, 1:07:02 pm Workspace was not properly initialized or has already shutdown.',
+  level: 'info',
+  timestamp: '2022-03-26 13:07:02.485'
+}
+{
+  message: '[Error - 1:07:02 pm] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2022-03-26 13:07:02.834'
+}
+{
+  message: '[Error - 1:11:14 pm] 26-Mar-2022, 1:11:14 pm Error occured while building workspace. Details: \n' +
+    ' message: Syntax error, insert ";" to complete Statement; code: 1610612976; resource: /home/rishabh/java-vscode/java1/Java-learning/src/Java_app/Java_app.java; line: 8',
+  level: 'info',
+  timestamp: '2022-03-26 13:11:14.562'
+}

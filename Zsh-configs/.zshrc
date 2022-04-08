@@ -145,7 +145,7 @@ alias rest='reboot'
 alias shut='shutdown now'
 alias sus='systemctl suspend'
 alias log='gnome-session-quit'
-alias vim='nvim'
+#alias vim='nvim'
 alias ll='exa -1 -a -l -b -h --icons -s name'
 alias lll='exa -1 -a -l -b -h --icons -T -L=2 -s name'
 alias m='mocp'
@@ -163,5 +163,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && ua-drop-caches \
       && eos-rankmirrors \
       && yay -Syyu --noconfirm'
-
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'

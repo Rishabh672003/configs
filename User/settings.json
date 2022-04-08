@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Hack The Box",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 17,
+    "terminal.integrated.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "editor.inlayHints.fontSize": 20,
+    "terminal.external.linuxExec": "fish",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "git.autofetch": true,
+    "window.menuBarVisibility": "toggle",
+    "java.showBuildStatusOnStart.enabled": "notification",
+    "launch": {
+    
+        "configurations": [],
+        "compounds": []
+    },
+    //"java.configuration.runtimes": (/usr/lib/jvm/java-17-openjdk/bin)
+    
+}

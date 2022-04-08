@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+/home/rishabh/.config/VSCodium/User/workspaceStorage/f491cc001273775e88c3976c0f18735f/redhat.java/ss_ws/.metadata/.plugins/org.eclipse.jdt.core

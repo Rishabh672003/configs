@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Backs up and restores tilix settings 
-
+#command structure - ./tilix_backup.sh (backup, restore)
 set -e
 
 if [[ $1 == 'backup' ]]; then

@@ -122,14 +122,14 @@ fi
 
 #my commands
 #fastfetch
-neofetch --ascii_distro arch
+neofetch 
 #shellfetch
 
 #my aliases
 alias nr='sudo systemctl restart NetworkManager'
 alias rs='sudo systemctl start rate-mirrors.service'
 alias rss='systemctl status rate-mirrors'
-alias rsss='cd /home/rishabh/mirrors-and-hosts/ && sudo zsh rate-mirrors-arch.sh'
+alias rsss='sudo zsh ~/mirrors-and-hosts/rate-mirrors-arch.sh'
 alias neofetch='neofetch --ascii_distro arch'
 alias n=' neofetch'
 alias c='clear'

@@ -10,6 +10,8 @@ quake-specific-monitor=0
 terminal-title-style='none'
 use-overlay-scrollbar=true
 use-tabs=false
+window-save-state=false
+window-state=43780
 window-style='borderless'
 
 [keybindings]
@@ -26,7 +28,7 @@ terminal-close='<Alt>c'
 
 [profiles/2b7c4080-0ddd-46c5-8f23-563fd3ba789d]
 background-color='#1E1E1E'
-background-transparency-percent=41
+background-transparency-percent=51
 badge-color='#AC7EA8'
 badge-color-set=false
 bold-color-set=false

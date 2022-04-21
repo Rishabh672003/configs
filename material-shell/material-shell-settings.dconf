@@ -14,7 +14,7 @@ clock-horizontal=true
 horizontal-panel-position='top'
 panel-icon-color=true
 panel-icon-style='hybrid'
-panel-opacity=45
+panel-opacity=30
 panel-size=39
 primary-color='#000000'
 surface-opacity=60
@@ -22,4 +22,6 @@ taskbar-item-style='name'
 vertical-panel-position='left'
 
 [tweaks]
+cycle-through-windows=false
+cycle-through-workspaces=false
 enable-persistence=true

@@ -121,12 +121,21 @@ alias nr="sudo systemctl restart NetworkManager"
 alias y='yay'
 alias n='neofetch'
 alias c='clear'
+alias e='exit'
+alias cn='c && n'
+alias shut='shutdown now'
+alias rest='reboot'
+alias log='gnome-session-quit'
+alias rs='sudo systemctl start rate-mirrors'
+alias rss='systemctl status rate-mirrors'
+alias rsss='zsh ~/projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh'
 alias r='reboot'
 alias s='shutdown now'
-alias ll='exa -al'
+alias ll='exa --color always --icons -1albh -s name'
+alias lll='exa --color always --icons -1albhT -L 2 -s name'
+alias zshrc='source ~/.zshrc'
 alias ws='waydroid show-full-ui'
-alias we='waydroid session stop'
-alias tachi='waydroid app launch eu.kanade.tachiyomi'
-alias rss='sudo systemctl status rate-mirrors'
+
+
 
 

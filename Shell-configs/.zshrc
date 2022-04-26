@@ -123,6 +123,7 @@ alias n='neofetch'
 alias c='clear'
 alias e='exit'
 alias cn='c && n'
+alias cny='c;n;y'
 alias shut='shutdown now'
 alias rest='reboot'
 alias log='gnome-session-quit'
@@ -135,6 +136,7 @@ alias ll='exa --color always --icons -1albh -s name'
 alias lll='exa --color always --icons -1albhT -L 2 -s name'
 alias zshrc='source ~/.zshrc'
 alias ws='waydroid show-full-ui'
+alias we='waydroid session stop'
 
 
 

@@ -1,1 +1,0 @@
-/home/rishabh/.config/fish/config.fish

@@ -1,1 +1,0 @@
-/home/rishabh/.p10k.zsh

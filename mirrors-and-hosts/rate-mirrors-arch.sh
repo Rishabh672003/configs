@@ -1,4 +1,5 @@
- export TMPFILE="$(mktemp)"; \
+#!/bin/sh  
+export TMPFILE="$(mktemp)"; \
 	 sudo true; \
 	 rate-mirrors --allow-root --save=$TMPFILE arch --max-delay=21600 \
       && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \

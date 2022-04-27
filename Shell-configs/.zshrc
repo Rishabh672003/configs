@@ -119,6 +119,7 @@ neofetch
 #my aliases
 alias nr="sudo systemctl restart NetworkManager"
 alias y='yay'
+alias p='paru'
 alias n='neofetch'
 alias c='clear'
 alias e='exit'

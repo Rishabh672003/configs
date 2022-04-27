@@ -137,7 +137,7 @@ alias lll='exa --color always --icons -1albhT -L 2 -s name'
 alias zshrc='source ~/.zshrc'
 alias ws='waydroid show-full-ui'
 alias we='waydroid session stop'
-
+alias cdp='cd ..'
 
 
 

@@ -114,7 +114,7 @@ source $ZSH/oh-my-zsh.sh
 
 #my commands
 neofetch
-
+#fastfetch
 
 #my aliases
 alias nr="sudo systemctl restart NetworkManager"

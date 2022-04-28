@@ -1,8 +1,9 @@
-cd /home/rishabh/projects/mirrors-and-hosts;
-rm -f hosts1 hosts2 hosts-all &&
-curl -C - --output hosts1 https://block.energized.pro/ultimate/formats/hosts \
-	-C - --output hosts2 https://raw.githubusercontent.com/x0uid/SpotifyAdBlock/master/hosts &&
-	sudo cat hosts1 hosts2 > /home/rishabh/projects/my-configs/mirrors-and-hosts/hosts-all &&
-	sort hosts-all | uniq > /etc/hosts
+cd /home/rishabh/projects/hosts/ &&
+rm -f /home/rishabh/projects/hosts/hosts&&
+curl -C - --output hosts https://block.energized.pro/ultimate/formats/hosts&&
+sudo cp hosts /etc/hosts
+
+
+
 
 

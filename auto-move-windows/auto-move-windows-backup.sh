@@ -1,8 +1,6 @@
-
-
 #!/usr/bin/env bash
 
-# Backs up and restores tilix settings 
+# Backs up and restores auto-move-windows settings 
 #command structure - ./tilix_backup.sh (backup, restore)
 set -e
 
@@ -18,4 +16,6 @@ if [[ $1 == 'restore' ]]; then
 fi
 
 echo "parameter 0: [backup|restore]"
+
+
 

@@ -1,6 +1,4 @@
-
-#!/usr/bin/env bash
-
+#!/bin/bash
 # Backs up and restores tilix settings 
 #command structure - ./tilix_backup.sh (backup, restore)
 set -e

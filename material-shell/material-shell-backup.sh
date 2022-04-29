@@ -1,6 +1,6 @@
 #!/bin/bash
-# Backs up and restores tilix settings 
-#command structure - ./tilix_backup.sh (backup, restore)
+# Backs up and restores material-shell's settings 
+#command structure - ./material-shell-backup.sh (backup, restore)
 set -e
 
 if [[ $1 == 'backup' ]]; then

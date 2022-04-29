@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Backs up and restores auto-move-windows settings 
-#command structure - ./tilix_backup.sh (backup, restore)
+#command structure - ./auto-move-windows-backup.sh (backup, restore)
 set -e
 
 if [[ $1 == 'backup' ]]; then

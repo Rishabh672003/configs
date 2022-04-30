@@ -113,8 +113,8 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #my commands
-#neofetch
-fastfetch
+neofetch
+#fastfetch
 
 #my aliases
 alias nr="sudo systemctl restart NetworkManager"
@@ -144,3 +144,4 @@ alias zshrc='source ~/.zshrc'
 alias ws='waydroid show-full-ui'
 alias we='waydroid session stop'
 alias update-grub=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias weather='curl -4 https://wttr.in/virar'

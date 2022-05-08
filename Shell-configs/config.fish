@@ -1,0 +1,35 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+
+#my aliases
+alias nr="sudo systemctl restart NetworkManager"
+alias y='yay --editmenu --upgrademenu -Syu'
+alias p='paru'
+alias n='neofetch'
+alias f='fastfetch'
+alias s='shellfetch' 
+alias c='clear'
+alias e='exit'
+alias cn='c && n'
+alias cnp='c;n;p'
+alias cdp='cd ..'
+alias cny='c;n;y'
+alias cf='clear;fastfetch'
+alias shut='shutdown now'
+alias rest='reboot'
+alias log='gnome-session-quit'
+alias rs='sudo systemctl start rate-mirrors'
+alias rss='systemctl status rate-mirrors'
+alias rsss='sh ~/projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh'
+alias host='sh ~/projects/hosts/hosts-maker.sh'
+alias rest='reboot'
+alias shut='shutdown now'
+alias ll='exa --color always --icons -1albh -s name'
+alias lll='exa --color always --icons -1albhT -L 2 -s name'
+alias zshrc='source ~/.zshrc'
+alias ws='waydroid show-full-ui'
+alias we='waydroid session stop'
+alias wr='sudo systemctl restart waydroid-container'
+alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias wtr='curl -4 https://wttr.in/virar'

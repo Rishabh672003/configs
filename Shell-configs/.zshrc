@@ -149,7 +149,7 @@ alias wr='sudo systemctl restart waydroid-container'
 alias tsm='transmission-remote'
 alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
-alias ua-drop-caches='sudo paccache -rk3; yay -Sc --aur --noconfirm'
+alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
     rate-mirrors --save=$TMPFILE arch --max-delay=21600 \

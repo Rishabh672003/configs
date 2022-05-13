@@ -6,7 +6,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # If you come from bash you might have to change your $PATH.
-#export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -146,7 +146,6 @@ alias zshrc='source ~/.zshrc'
 alias ws='waydroid show-full-ui'
 alias we='waydroid session stop'
 alias wr='sudo systemctl restart waydroid-container'
-alias tsm='transmission-remote'
 alias grub-update=' sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wtr='curl -4 https://wttr.in/virar'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
@@ -157,4 +156,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
-
+alias neo='cp -r ~/.config/nvim/* ~/Projects/Neovim/ && cd ~/Projects/Neovim'

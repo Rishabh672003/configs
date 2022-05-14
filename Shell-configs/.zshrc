@@ -135,8 +135,8 @@ alias rest='reboot'
 alias log='gnome-session-quit'
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
-alias rsss='sh ~/projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh'
-alias host='sh ~/projects/hosts/hosts-maker.sh'
+alias rsss='sh ~/Projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh'
+alias host='sh ~/Projects/hosts/hosts-maker.sh'
 alias rest='reboot'
 alias shut='shutdown now'
 alias sus='systemctl suspend'
@@ -156,4 +156,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
-alias neo='cp -r ~/.config/nvim/* ~/Projects/Neovim/ && cd ~/Projects/Neovim'
+alias neo='cp -r ~/.config/nvim/* ~/Projects/Neovim/ && cd ~/Projects/Neovim && rm -rf plugin'

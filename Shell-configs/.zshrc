@@ -118,7 +118,7 @@ neofetch
 
 #my aliases
 alias nr="sudo systemctl restart NetworkManager"
-alias y='yay --editmenu --upgrademenu -Syu'
+alias y='yay' 
 alias p='paru'
 alias n='neofetch'
 alias f='fastfetch'
@@ -137,7 +137,7 @@ alias rest='reboot'
 alias log='gnome-session-quit'
 alias rs='sudo systemctl start rate-mirrors'
 alias rss='systemctl status rate-mirrors'
-alias rsss='sh ~/Projects/my-configs/mirrors-and-hosts/rate-mirrors-arch.sh'
+alias rsss='sh ~/Projects/configs/mirrors-and-hosts/rate-mirrors-arch.sh'
 alias host='sh ~/Projects/hosts/hosts-maker.sh'
 alias rest='reboot'
 alias shut='shutdown now'

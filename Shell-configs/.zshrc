@@ -48,7 +48,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -155,7 +155,7 @@ alias wtr='curl -4 https://wttr.in/virar'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
-    rate-mirrors --save=$TMPFILE arch --max-delay=21600 \
+    rate-mirrors --disable-comments --save=$TMPFILE arch --max-delay=21600 \
       && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \

@@ -6,6 +6,3 @@ export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && sudo chmod 777 /etc/pacman.d/mirrorlist  \
       && sudo bash /home/rishabh/Projects/hosts/hosts-maker.sh 
-
-
-

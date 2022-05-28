@@ -11,7 +11,7 @@ font:
   bold_italic:
     family: MesloLGM Nerd Font 
     style: Italic
-  size: 13.5
+  size: 13
 
 window:
   decorations: none

@@ -16,8 +16,8 @@ zstyle ':z4h:' auto-update-days '28'
 # Keyboard type: 'mac' or 'pc'.
 zstyle ':z4h:bindkey' keyboard  'pc'
 
-# Don't start tmux.
-zstyle ':z4h:' start-tmux       no
+# Start tmux if not already in tmux.
+zstyle ':z4h:' start-tmux       command tmux -u new -A -D -t z4h
 
 # Mark up shell's output with semantic information.
 zstyle ':z4h:' term-shell-integration 'yes'
@@ -59,7 +59,7 @@ z4h install ohmyzsh/ohmyzsh || return
 z4h init || return
 
 # Extend PATH.
-path=(~/bin $path)
+# path=(~/bin $path)
 
 # Export environment variables.
 export GPG_TTY=$TTY
@@ -72,7 +72,7 @@ z4h source ~/.env.zsh
 # This is just an example that you should delete. It does nothing useful.
 # z4h source ohmyzsh/ohmyzsh/lib/diagnostics.zsh  # source an individual file
 # z4h load   ohmyzsh/ohmyzsh/plugins/emoji-clock  # load a plugin
-z4h load   ohmyzsh/ohmyzsh/plugins/git  # load a plugin
+z4h load   ohmyzsh/ohmyzsh/plugins/git 
 
 # Define key bindings.
 z4h bindkey z4h-backward-kill-word  Ctrl+Backspace     Ctrl+H
@@ -100,7 +100,7 @@ compdef _directories md
 alias tree='tree -a -I .git'
 
 # Add flags to existing aliases.
-alias ls="${aliases[ls]:-ls} -A"
+# alias ls="${aliases[ls]:-ls} -A"
 
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
@@ -126,13 +126,12 @@ alias vs='sudoedit'
 alias ae='alacritty -e'
 alias v='nvim'
 alias hx='helix' 
+alias cat='bat -p'
 alias cn='c && n'
 alias cnp='c;n;p'
 alias cdp='cd ..'
 alias cny='c;n;y'
 alias cf='clear;fastfetch'
-alias cat='bat -p'
-alias bat='bat --theme ansi'
 alias shut='shutdown now'
 alias rest='reboot'
 alias log='gnome-session-quit'

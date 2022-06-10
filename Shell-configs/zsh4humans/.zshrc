@@ -113,8 +113,6 @@ neofetch
 #my aliases
 alias nr='sudo systemctl restart NetworkManager'
 alias y='yay' 
-alias yr='yay -R'
-alias ys='yay -S'
 alias p='paru'
 alias n='neofetch'
 alias f='fastfetch'
@@ -161,4 +159,4 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
-alias neo='cp ~/Projects/neovim/README.md ~/.config/nvim/ && cp -r ~/.config/nvim/* ~/Projects/neovim/ && z ~/Projects/neovim'
+alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/Projects/Neovim/ && z ~/Projects/Neovim'

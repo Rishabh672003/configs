@@ -1,5 +1,10 @@
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 eval "$(zoxide init zsh)"
+eval $(thefuck --alias)
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_CACHE_HOME=$HOME/.cache
 
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
@@ -66,7 +71,7 @@ export GPG_TTY=$TTY
 
 # Source additional local files if they exist.
 z4h source ~/.env.zsh
-z4h source ~/Projects/git.plugin.zsh
+z4h source ~/Projects/configs/Shell-configs/zsh4humans/git.plugin.zsh
 
 # Use additional Git repositories pulled in with `z4h install`.
 #
@@ -123,6 +128,7 @@ alias cdf='zi'
 alias e='exit'
 alias vs='sudoedit'
 alias ae='alacritty -e'
+alias m='mocp'
 alias v='nvim'
 alias nnvim='~/Applications/nvim.appimage'
 alias hx='helix' 

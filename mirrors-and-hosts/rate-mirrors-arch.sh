@@ -1,4 +1,5 @@
-#!/bin/sh  
+#!/bin/sh
+
 export TMPFILE="$(mktemp)"; \
 	 sudo true; \
 	 rate-mirrors --disable-comments --allow-root --save=$TMPFILE arch --max-delay=21600 \

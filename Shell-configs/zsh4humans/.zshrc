@@ -5,6 +5,15 @@ export XDG_DATA_HOME=$HOME/.local/share
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_STATE_HOME=$HOME/.local/state
 export XDG_CACHE_HOME=$HOME/.cache
+export _Z_DATA="$XDG_DATA_HOME/z"
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export GOPATH="$XDG_DATA_HOME"/go
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export TERMINFO="$XDG_DATA_HOME"/terminfo
+export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
+export HISTFILE="${XDG_STATE_HOME}"/bash/history
 
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
@@ -128,7 +137,7 @@ alias cdf='zi'
 alias e='exit'
 alias vs='sudoedit'
 alias ae='alacritty -e'
-alias m=mocp -O MOCDir="$XDG_CONFIG_HOME"/moc
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 alias v='nvim'
 alias nnvim='~/Applications/nvim.appimage'
 alias hx='helix' 

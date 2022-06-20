@@ -1,20 +1,3 @@
-eval "$(zoxide init zsh)"
-eval $(thefuck --alias)
-export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
-export XDG_DATA_HOME=$HOME/.local/share
-export XDG_CONFIG_HOME=$HOME/.config
-export XDG_STATE_HOME=$HOME/.local/state
-export XDG_CACHE_HOME=$HOME/.cache
-export _Z_DATA="$XDG_DATA_HOME/z"
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export GOPATH="$XDG_DATA_HOME"/go
-export GNUPGHOME="$XDG_DATA_HOME"/gnupg
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
-export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
-export TERMINFO="$XDG_DATA_HOME"/terminfo
-export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
-export HISTFILE="${XDG_STATE_HOME}"/bash/history
-
 # Personal Zsh configuration file. It is strongly recommended to keep all
 # shell customization and configuration (including exported environment
 # variables such as PATH) in this file or in files sourced from it.
@@ -119,6 +102,26 @@ alias tree='tree -a -I .git'
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
+
+#Shell-variables
+export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_CACHE_HOME=$HOME/.cache
+export _Z_DATA="$XDG_DATA_HOME/z"
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export GOPATH="$XDG_DATA_HOME"/go
+export GNUPGHOME="$XDG_DATA_HOME"/gnupg
+export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
+export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
+export TERMINFO="$XDG_DATA_HOME"/terminfo
+export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
+export HISTFILE="${XDG_STATE_HOME}"/bash/history
+
+#evals needed for apps
+eval "$(zoxide init zsh)"
+eval $(thefuck --alias)
 
 #my commands
 # neofetch

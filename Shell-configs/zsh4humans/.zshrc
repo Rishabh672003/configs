@@ -117,7 +117,10 @@ export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export LESSHISTFILE="$XDG_CACHE_HOME"/less/history
 export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
-export HISTFILE="${XDG_STATE_HOME}"/bash/history
+export HISTFILE="${XDG_STATE_HOME}"/zsh/history
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+
 
 #evals needed for apps
 eval "$(zoxide init zsh)"
@@ -137,6 +140,7 @@ alias s='shellfetch'
 alias c='clear'
 alias cd='z'
 alias cdf='zi'
+alias cz='nvim ~/.config/zsh/.zshrc'
 alias e='exit'
 alias vs='sudoedit'
 alias ae='alacritty -e'
@@ -173,7 +177,7 @@ alias wtr='curl -4 https://wttr.in/virar'
 alias ua-drop-caches='yay -Sc --aur --noconfirm'
 alias ua-update-all='export TMPFILE="$(mktemp)"; \
     sudo true; \
-    rate-mirrors --save=$TMPFILE arch --max-delay=21600 \
+    rate-mirrors --disable-comments --save=$TMPFILE arch --max-delay=21600 \
       && sudo mv /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist-backup \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \

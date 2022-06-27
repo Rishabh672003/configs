@@ -1,1 +1,3 @@
-cp ./.zshrc $HOME && cp ../.p10k.zsh $HOME
+#!/bin/bash
+
+cp ./.zshrc $HOME/.config/zsh && cp ../.p10k.zsh $HOME/.config/zsh

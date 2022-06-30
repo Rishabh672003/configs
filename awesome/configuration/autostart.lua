@@ -9,8 +9,8 @@ local function autostart_apps()
 		awful.spawn("picom --experimental-backends --config " .. config_dir .. "configuration/picom.conf", false)
 	end)
 	--- Music Server
-	helpers.run.run_once_pgrep("mpd")
-	helpers.run.run_once_pgrep("mpDris2")
+	helpers.run.run_once_pgrep("mocicon")
+	helpers.run.run_once_pgrep("mocp")
 	--- Polkit Agent
 	helpers.run.run_once_ps(
 		"polkit-gnome-authentication-agent-1",

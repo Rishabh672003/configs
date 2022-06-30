@@ -6,19 +6,21 @@ return {
 	--- Default Applications
 	default = {
 		--- Default terminal emulator
-		terminal = "xfce4-terminal",
+		terminal = "alacritty",
 		--- Default music client
-		music_player = "wezterm start --class music ncmpcpp",
+		music_player = "alacritty -e mocp",
 		--- Default text editor
-		text_editor = "xfce4-terminal -x nvim",
+		text_editor = "alacritty -e nvim",
 		--- Default code editor
 		code_editor = "code",
 		--- Default web browser
 		web_browser = "brave",
 		--- Default file manager
 		file_manager = "nautilus",
+		--default pdf viewer
+		pdf_viewer = "evince",
 		--- Default network manager
-		network_manager = "xfce4-terminal -x nmtui",
+		network_manager = "alacritty -e nmtui",
 		--- Default bluetooth manager
 		bluetooth_manager = "blueman-manager",
 		--- Default power manager

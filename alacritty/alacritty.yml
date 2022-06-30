@@ -11,13 +11,12 @@ font:
   bold_italic:
     family: MesloLGM Nerd Font
     style: Italic
-  size: 13.3
+  size: 13
 
 window:
   decorations: none
   opacity: 0.4
-  # dynamic_padding: true
-  # startup_mode: Maximized
+  dynamic_padding: true
 
 shell:
   program: /bin/zsh
@@ -36,7 +35,7 @@ colors:
     black: '#000000'
     red: '#cd0000'
     green: '#00cd00'
-    yellow: '#cdcd00'
+    yellow: '#d5911a'
     blue: '#0000ee'
     magenta: '#cd00cd'
     cyan: '#00cdcd'
@@ -47,7 +46,7 @@ colors:
     black: '#7f7f7f'
     red: '#ff0000'
     green: '#00ff00'
-    yellow: '#ffff00'
+    yellow: '#d5911a'
     blue: '#5c5cff'
     magenta: '#ff00ff'
     cyan: '#00ffff'

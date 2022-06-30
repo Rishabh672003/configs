@@ -14,7 +14,8 @@ return {
 		--- Default code editor
 		code_editor = "code",
 		--- Default web browser
-		web_browser = "brave",
+		web_browser_1 = "brave",
+		web_browser_2 = "firefox",
 		--- Default file manager
 		file_manager = "nautilus",
 		--default pdf viewer

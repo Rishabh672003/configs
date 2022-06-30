@@ -17,6 +17,7 @@ local function autostart_apps()
 		"/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 	)
 	--- Other stuff
+	helpers.run.run_once_pgrep("redshift")
 	helpers.run.run_once_grep("blueman-applet")
 	helpers.run.run_once_grep("nm-applet")
 end

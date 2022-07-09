@@ -63,7 +63,7 @@ export GPG_TTY=$TTY
 
 # Source additional local files if they exist.
 z4h source ~/.env.zsh
-z4h source ~/Projects/configs/Shell-configs/zsh4humans/git.plugin.zsh
+z4h source ~/.config/zsh/git.plugin.zsh
 
 # Use additional Git repositories pulled in with `z4h install`.
 #
@@ -119,12 +119,11 @@ export TERMINFO="$XDG_DATA_HOME"/terminfo
 export TERMINFO_DIRS="$XDG_DATA_HOME"/terminfo:/usr/share/terminfo
 export HISTFILE="${XDG_STATE_HOME}"/zsh/history
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
+export ZDOTDIR="$HOME"/.config/zsh
 compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
-
 
 #evals needed for apps
 eval "$(zoxide init zsh)"
-eval $(thefuck --alias)
 
 #my commands
 # neofetch
@@ -133,13 +132,13 @@ fastfetch
 #my aliases
 alias nr='sudo systemctl restart NetworkManager'
 alias y='yay' 
+alias ys='yay -Syu --noconfirm'
 alias p='paru'
 alias n='neofetch'
 alias f='fastfetch'
-alias s='shellfetch' 
 alias c='clear'
 alias cd='z'
-alias cdf='zi'
+alias cdd='zi'
 alias cz='nvim ~/.config/zsh/.zshrc'
 alias e='exit'
 alias vs='sudoedit'
@@ -169,6 +168,7 @@ alias ll='exa --color always --icons -1albh -s name'
 alias lll='exa --color always --icons -1albhT -L 2 -s name'
 alias zshrc='exec zsh'
 alias ws='waydroid show-full-ui'
+alias wss='XDG_SESSION_TYPE=wayland waydroid show-full-ui'
 alias we='waydroid session stop'
 alias wr='sudo systemctl restart waydroid-container'
 alias wl='sudo waydroid log'
@@ -182,4 +182,10 @@ alias ua-update-all='export TMPFILE="$(mktemp)"; \
       && sudo mv $TMPFILE /etc/pacman.d/mirrorlist \
       && ua-drop-caches \
       && yay -Syyu --noconfirm'
-alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/Projects/Neovim/ && z ~/Projects/Neovim'
+alias neo='cp ~/Projects/Neovim/README.md ~/.config/nvim/ ; cp -r ~/.config/nvim/* ~/projects/Neovim/ && z ~/Projects/Neovim'
+alias zshc='cp -r ~/.config/zsh/* ~/projects/zsh-configs/ ; cd ~/projects/zsh-configs'
+alias awe='cd ~/projects/awesome-dotfiles/ && git pull \
+  && cp -r ~/.config/awesome/* ~/projects/awesome-dotfiles/config/awesome/ \
+  && z ~/projects/awesome-dotfiles/config/awesome && rm user_variables.lua \
+  && cp ~/projects/user_variables.lua ~/projects/awesome-dotfiles/config/awesome/'
+

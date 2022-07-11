@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/env sh
 
 TMPFILE="$(mktemp)"
 export TMPFILE

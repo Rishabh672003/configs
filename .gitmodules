@@ -4,3 +4,6 @@
 [submodule "Shell-configs/zsh-configs"]
 	path = Shell-configs/zsh-configs
 	url = https://github.com/Rishabh672003/zsh-configs
+[submodule "zsh-configs"]
+	path = zsh-configs
+	url = https://github.com/Rishabh672003/zsh-configs

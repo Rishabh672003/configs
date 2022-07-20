@@ -7,3 +7,6 @@
 [submodule "zsh-configs"]
 	path = zsh-configs
 	url = https://github.com/Rishabh672003/zsh-configs
+[submodule "Neovim"]
+	path = Neovim
+	url = https://github.com/Rishabh672003/Neovim
